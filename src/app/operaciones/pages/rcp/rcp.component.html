@@ -1,0 +1,316 @@
+<!-- <div class="container mt-3"> -->
+
+
+
+    <div style="position: relative; left: 10px; top: 10px;">
+        <div class="box">
+            - Compresión/Ventilación<br>
+            - Sin TET: 15/2<br>
+            - Con TET: 1 vent. /2-3 seg. (30/min)
+        </div>
+    
+    </div>
+    
+    <div style="position: relative; left: 210px; top: -15px;">
+    <div class="line"></div>
+    </div>
+    
+    <div style="position: relative; left: 240px; top: -50px;">
+    <div class="boxnegrita">
+        1. INICIAR RCP<br>
+        - Ventilación con AMBU y oxigenar<br>
+        - Conectar monitor/desfibrilador
+    </div>
+    </div>
+    
+    <div style="position: relative; left: 480px; top: -70px;">
+    <div class="line"></div>
+    </div>
+    
+    <div style="position: relative; left: 515px; top: -110px;">
+    <div class="box">
+        - Comprimir fuerte (1/3 diámetro)<br>
+        - Comprimir rápido (100-120/min)<br>
+        - Permitir expansión completa<br>
+        - Minimizar interrupciones<br>
+        - Cambiar compresores cada 2 min
+    </div>
+    </div>
+    
+    <div style="position: relative; left: 360px; top: -143px;">
+        <div class="lineh"></div>
+    </div>
+    
+    <div style="position: relative; left: 300px; top: -170px;">
+        <div class="desfri">
+        <p>¿Desfibrilable?</p>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 250px; top: -190px;">
+        <div class="linelarge"> SI </div>
+    </div>
+    
+    <div style="position: relative; left: 420px; top: -193px;">
+        <div class="linelarge"> NO </div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -215px;">
+        <div class="boxnegrita">
+            2. FIBRILACIÓN VENTRICULAR<br>
+            - Taquicardia ventricular
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -225px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -239px;">
+            <div class="resultadosshock">
+            <p>{{'3. SHOCK: ' + shock3 + ' J'}}</p>
+            </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -254px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -264px;">
+        <div class="boxnegrita">
+            4. RCP por 2 min
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -275px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -287px;">
+        <div class="desfri">
+        <p>¿Desfibrilable?</p>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 130px; top: -309px;">
+        <div class="lineno">NO: PASO 10</div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -311px;">
+        <div class="linec">SI</div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -325px;">
+            <div class="resultadosshock">
+            <p>{{'5. SHOCK: ' + shock5 + ' J'}}</p>
+            </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -339px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -353px;">
+        <div class="boxnegrita">
+            6. RCP por 2 min<br>
+            <div class="resultadosrcp">
+                <p>{{'Adrenalina c/3-5 min: ' + adrenalina + ' ml'}}</p>
+                </div>
+            - Considerar intubación<br>
+            <div class="resultadosrcp">
+                <p>{{intubacion}}</p>
+                <p>{{profund}}</p>
+                </div>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -366px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -380px;">
+        <div class="desfri">
+        <p>¿Desfibrilable?</p>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 130px; top: -402px;">
+        <div class="lineno">NO: PASO 10</div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -406px;">
+        <div class="linec">SI</div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -420px;">
+            <div class="resultadosshock">
+            <p>{{'7. SHOCK: ' + shock71 + ' - ' + shock72 + ' J'}}</p>
+            </div>
+    </div>
+    
+    <div style="position: relative; left: 80px; top: -434px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 10px; top: -446px;">
+        <div class="boxnegrita">
+            8. RCP por 2 min
+            - Amiodarona o Lidocaina<br>
+            <div class="resultadosrcp">
+                <p>{{Amiodarona}}</p>
+                <p>{{Lidocaina}}</p>
+                </div>
+                Causas reversibles
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 470px; top: -970px;">
+        <div class="boxnegrita">
+            9. ASISTOLIA<br>
+            <div class="resultadosrcp">
+                <p>{{'1 ml Adrenalina + 9 ml SF: ' + adrenalina + ' ml'}}</p>
+                </div>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 570px; top: -980px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 470px; top: -990px;">
+        <div class="boxnegrita">
+            10. RCP por 2 min
+            <div class="resultadosrcp">
+                <p>{{'Adrenalina cada 3-5 min: ' + adrenalina + ' ml'}}</p>
+                </div>
+            - Considerar intubación y capnografía<br>
+            <div class="resultadosrcp">
+                <p>{{intubacion}}</p>
+                <p>{{profund}}</p>
+                </div>
+                Causas reversibles
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 570px; top: -1000px;">
+        <div class="linec"></div>
+    </div>
+    
+    <div style="position: relative; left: 520px; top: -1022px;">
+        <div class="desfri">
+        <p>¿Desfibrilable?</p>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 640px; top: -1044px;">
+        <div class="lineno">NO: PASO 10</div>
+    </div>
+    
+    <div style="position: relative; left: 460px; top: -1046px;">
+        <div class="lineno">SI: PASO 4</div>
+    </div>
+    
+    <div style="position: relative; left: 310px; top: -1055px;">
+        <!--<p-card header="Reproducción de Video">-->
+         <video width="400" height="320" controls autoplay>
+            <source src="assets/videos/Video-RCP.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div style="position: relative; left: 300px; top: -1380px; font-size: 16px; font-weight: bold; ">
+        <p-progressBar [value]="currentTime" [showValue]="false" [style]="{ width: '150px'}" mode="determinate" ></p-progressBar>
+        {{ formatTime() }}
+      </div>
+    
+    <div>
+        <div class="col-12">
+            <img [src]="parametros" alt="parametros" class="parametros">
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 750px; top: -2045px;">
+        <button pButton type="button" style="background-color: #5f1277; color: white; font-weight: bold; font-size: 16px;">
+            {{'PESO: ' + this.peso + ' Kg'}}
+        </button>
+    </div>
+    
+    <div style="position: relative; left: 715px; top: -1900px;">
+        <div class="cuadro">
+            <div class="nombre">Hipovolemia</div>
+            <div class="resultados">
+            <p>{{'SF: '+ Hipovolemia + ' - ' + Hipovolemia2 + ' ml en bolo '}}</p>
+            </div>
+    
+            <div class="nombre">Hipoxia</div>
+            <div class="resultados">
+            <p></p>
+            </div>
+    
+            <div class="nombre">Hidrogeniones (pH)</div>
+            <div class="resultados">
+            <p>{{'HCO3Na 8.4%:  '+ pH + ' ml + ' + pH + ' ml de agua '}}</p>
+            </div>
+    
+            <div class="nombre">Hipoglicemia</div>
+            <div class="resultados">
+            <p>{{'Dx 10%: '+ Hipoglicemia + ' - ' + Hipoglicemia1 + ' ml'}}</p>
+            </div>
+    
+            <div class="nombre">Hipokalemia</div>
+            <div class="resultados">
+            <p>{{'KCl 20%: '+ Hipokalemia + ' ml - ' + Hipokalemia2 + ' ml de SF (V.P. en 30 min) '}}</p>
+            </div>
+    
+            <div class="nombre">Hipotermia</div>
+            <div class="resultados">
+            <p></p>
+            </div>
+    
+            <div class="nombre">Hiperkalemia</div>
+            <div class="resultados">
+            <p>{{Hiperkalemia}}</p>
+            </div>
+    
+            <div class="nombre">Tapon. cardiaco</div>
+            <div class="resultados">
+            <p></p>
+            </div>
+    
+            <div class="nombre">neumoTorax</div>
+            <div class="resultados">
+            <p>Aguja 22-24 ó avocat 18-20 en medio clavicular 2° eic</p>
+            <p>{{neumotorax}}</p>
+            </div>
+    
+            <div class="nombre">Toxinas</div>
+            <div class="resultados">
+            <p></p>
+            </div>
+        </div>
+    </div>
+    
+    <div style="position: relative; left: 1080px; top: -2250px;">
+        <button pButton type="button" label="Ingrese Peso" (click)="RegresarInicio()" ></button>
+    </div>
+    
+    
+    <div style="position: relative; left: 1110px; top: -2230px;">
+        <button pButton type="button" label="Salir" (click)="RegresarInicio()" ></button>
+    </div>
+    
+    
+    <div>
+        <div class="col-12">
+            <img [src]="imgigor2" alt="imgigor2" class="imgigor2">
+        </div>
+    </div>
+
+        <!--
+        <div style="position: relative; left: 60px; top: -2050px;">
+            <button pButton type="button" label="Nuevo Peso" (click)="RegresarInicio()" ></button>
+        </div> -->
+        
+    
+
+    
+<!--</div>-->

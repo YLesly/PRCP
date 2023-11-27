@@ -1,1 +1,227 @@
+@import '../node_modules/@syncfusion/ej2-material-theme/styles/material.css';
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+html, body, .row{
+    padding: 0;
+    margin: 0;
+}
+
+img.logo {
+    margin-bottom: 1rem;
+    height: 140px;
+    width: 140px;
+    border: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+}
+
+img.logoessalud {
+    margin-bottom: 1rem;
+    /*position: relative;*/
+        left: 100px; /* Mueve la imagen 50 píxeles hacia la derecha */
+        /*right: 50px; /* Mueve la imagen 50 píxeles hacia la izquierda */
+        top: 580px; /* Mueve la imagen 50 píxeles hacia abajo */
+        
+    height: 100px;
+    width: 280px;
+    border: 1rem;
+    margin-bottom: 1rem;
+    
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+img.imgigor {
+    margin-bottom: 1rem;
+    position: relative;
+        left: 810px; 
+        top: 480px; 
+    
+    height: 280px;
+    width: 150px;
+    border: 1rem;
+
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+img.imgigor2 {
+  margin-bottom: 1rem;
+  height: 230px;
+  width: 100px;
+  border: 1rem;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+    left: 1100px; 
+    top: 500px; 
+}
+
+img.parametros {
+    margin-bottom: 1rem;
+    position: relative;
+        /*left: 50px; /* Mueve la imagen 50 píxeles hacia la derecha */
+        right: -680px; /* Mueve la imagen 50 píxeles hacia la izquierda */
+        top: -1810px; /* Mueve la imagen 50 píxeles hacia abajo */
+    
+    height: 300px;
+    width: 600px;
+    border: 1rem;
+    margin-bottom: 1rem;  
+}
+
+img.SHOCK {
+    max-width: 25px; /* Ajusta el ancho máximo según tus preferencias */
+    max-height: 25px; /* Ajusta la altura máxima según tus preferencias */
+}
+
+
+  .line-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenedor al lado izquierdo */
+    align-items: center;
+    width: 200px; /* ajusta el ancho según tus necesidades */
+    margin: 50px auto; /* ajusta los márgenes según tus necesidades */
+  }
+  
+  .box {
+    width: 200px; /* ajusta el ancho según tus necesidades */
+    max-height: 250px; /* ajusta la altura máxima según tus necesidades */
+    overflow: auto; /* añade barras de desplazamiento si es necesario */
+    background-color: #c82494; /* ajusta el color según tus necesidades */
+    padding: 10px; /* ajusta el espacio interno según tus necesidades */
+    /*font-weight: bold; /* hace que el texto sea en negrita */
+    color: white; /* ajusta el color del texto según tus necesidades */
+    font-size: 10px; /* ajusta el tamaño de la letra según tus necesidades */
+  }
+  .line {
+    width: 40px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 2px; /* ajusta el grosor según tus necesidades */
+    background-color: black; /* ajusta el color según tus necesidades */
+  }
+
+  .boxnegrita {
+    width: 240px; /* ajusta el ancho según tus necesidades */
+    max-height: 250px; /* ajusta la altura máxima según tus necesidades */
+    overflow: auto; /* añade barras de desplazamiento si es necesario */
+    background-color: #c82494; /* ajusta el color según tus necesidades */
+    padding: 10px; /* ajusta el espacio interno según tus necesidades */
+    font-weight: bold; /* hace que el texto sea en negrita */
+    color: white; /* ajusta el color del texto según tus necesidades */
+    font-size: 10px; /* ajusta el tamaño de la letra según tus necesidades */
+  }
+
+  .cuadro {
+    width: 340px;
+    border: 2px solid #820496;
+    background-color: #c82494; 
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  .nombre {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 12px; 
+    color: white; 
+
+  }
+  
+  .resultados {
+    font-size: 12px;
+    font-weight: bold; 
+    color: red; 
+    background-color: white; 
+    font-size: 12px; 
+  }
+
+  .shock {
+    width: 150px;
+    border: 2px solid #962d04;
+    background-color: red;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .resultadosshock {
+    width: 180px;
+    font-size: 12px;
+    font-weight: bold; /* hace que el texto sea en negrita */
+    color: white; /* ajusta el color del texto según tus necesidades */
+    background-color: red;
+  }
+
+  .resultadosrcp {
+    font-size: 12px;
+    font-weight: bold; /* hace que el texto sea en negrita */
+    color: red; /* ajusta el color del texto según tus necesidades */
+    background-color: white;
+  }
+  
+
+  .line-vertical {
+    width: 100px; /* Ajusta el ancho de la línea vertical según tus necesidades */
+    height: 2px; /* Ajusta la altura de la línea vertical según tus necesidades */
+    background-color: black; /* Ajusta el color según tus necesidades */
+  }
+  
+
+  .desfri {
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold; /* hace que el texto sea en negrita */
+    color: white; /* ajusta el color del texto según tus necesidades */
+    background-color: rgb(120, 5, 140);
+  }
+
+  .linelarge {
+    width: 55px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 2px; /* ajusta el grosor según tus necesidades */
+    background-color: black; /* ajusta el color según tus necesidades */
+    font-size: 12px;
+    color: red;
+  }
+
+
+  .lineh {
+    width: 2px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 55px; /* ajusta el grosor según tus necesidades */
+    background-color: black; /* ajusta el color según tus necesidades */
+    margin: 10px 0; /* Ajusta el margen entre la línea y las cajas según tus necesidades */
+    font-size: 10px;
+    color: red;
+  }
+
+
+  .linec {
+    width: 2px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 18px; /* ajusta el grosor según tus necesidades */
+    background-color: rgb(51, 17, 17); /* ajusta el color según tus necesidades */
+    margin: 10px 0; /* Ajusta el margen entre la línea y las cajas según tus necesidades */
+    font-size: 12px;
+    color: red;
+  }
+
+  
+  .linecC {
+    width: 2px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 15px; /* ajusta el grosor según tus necesidades */
+    background-color: black; /* ajusta el color según tus necesidades */
+    margin: 10px 0; /* Ajusta el margen entre la línea y las cajas según tus necesidades */
+    font-size: 10px;
+    color: red;
+}
+
+  .lineno {
+    width: 65px; /* ajusta la longitud de la línea según tus necesidades */
+    height: 2px; /* ajusta el grosor según tus necesidades */
+    background-color: black; /* ajusta el color según tus necesidades */
+    font-size: 10px;
+    color: red;
+  }
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+

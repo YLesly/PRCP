@@ -1,0 +1,48 @@
+<h1 style="text-align: center; color: white; background-color: rgb(39, 100, 174) ; padding: 10px; font-size: 60px; font-weight: bold;">
+    UCI PEDIÁTRICO -
+    Algoritmo RCP Niños
+</h1>
+
+
+<!-- <section class="d-flex align-items-center justify-content-center" style="height: 300px;"> -->
+    <form [formGroup] = "formPeso" >
+        <div class="row mt-4 text-center" style="text-align: center;">
+            
+            <div class="col-12">
+                <img [src]="logo" alt="logo" class="logo">
+            </div>
+    
+            <div style="align-items: center;">
+                
+                <p-inputNumber styleClass="wid60" class="input-number" formControlName = "peso" [min]="0"  placeholder="Ingrese el peso" (keypress)="handleKeyPress($event)"></p-inputNumber>
+                <!-- <p-inputNumber styleClass="wid60" class="input-number" formControlName = "peso" [min]="0"  placeholder="Ingrese el peso" suffix=" Kg" (keypress)="handleKeyPress($event)"></p-inputNumber> -->
+
+                <!-- <input formControlName="Peso" placeholder="Ingrese el Peso" style="max-width: 45px;"/> -->
+                
+                <div style="margin-top: 20px;">
+                    <button pButton type="button" label="Iniciar consulta" (click)="iniciarConsulta()"></button>
+                  </div>
+                  <div *ngIf="errorMessage" style="color: red; margin-top: 10px;">{{ errorMessage }}</div>
+
+            </div>
+
+            <div class="col-12">
+                <img [src]="logoessalud" alt="logoessalud" class="logoessalud responsive-image">
+            </div>
+            <div class="col-12">
+                <img [src]="imgigor" alt="imgigor" class="imgigor responsive-image">
+            </div> 
+
+        </div>
+
+        
+
+    </form>
+<!-- </section> -->
+
+<section>
+    <form >
+         
+    </form>
+</section>
+ 
